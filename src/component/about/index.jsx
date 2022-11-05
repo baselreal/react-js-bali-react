@@ -10,7 +10,7 @@ const About = () => {
         <div className="bgColor"></div>
         <div className="buttonBack">
           <Link to="/">
-            <img src={Back} />
+            <img src={Back} alt="back" />
           </Link>
         </div>
         <div className="wrapAll">

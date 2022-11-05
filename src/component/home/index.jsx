@@ -8,7 +8,7 @@ const Home = () => {
       <div className="bg-color"></div>\
       <div className="wrap-text">
         <div className="img">
-          <img src={Bali}></img>
+          <img src={Bali} alt="" />
         </div>
         <div className="kata">
           <div className="better">A Better Way To</div>

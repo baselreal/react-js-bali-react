@@ -11,7 +11,7 @@ const Reservation = () => {
         <form className="form1">
           <div className="second back2">
             <Link to="/">
-              <img src={Back} />
+              <img src={Back} alt="" />
             </Link>
           </div>
           <div className="second reser-title">Reservations</div>
