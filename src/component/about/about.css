@@ -1,0 +1,83 @@
+.containerContent {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./bg1.png);
+  background-size: cover;
+}
+
+.bgColor {
+  background-color: rgba(42, 38, 61, 0.82);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.buttonBack {
+  box-sizing: border-box;
+  position: absolute;
+
+  width: 24px;
+  height: 0px;
+  left: 80px;
+  top: 80px;
+
+  border: 5px #fcb371;
+  z-index: 1;
+}
+.wrapAll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.contentTitle {
+  left: 540px;
+  right: 541px;
+  top: 171px;
+  bottom: 465px;
+
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 84px;
+  text-align: center;
+
+  color: #fcb371;
+  z-index: 1;
+  margin-bottom: 120px;
+}
+
+.content {
+  width: 768px;
+  height: 190px;
+  left: 256px;
+  top: 301px;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #ffffff;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contentTitle {
+    margin-bottom: 50px;
+  }
+
+  .content {
+    width: 50%;
+    margin-bottom: 100px;
+    letter-spacing: 0.5mm;
+  }
+}
