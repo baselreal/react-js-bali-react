@@ -22,11 +22,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .img {
-  padding-bottom: 80px;
+  padding-top: 120px;
+  padding-bottom: 50px;
   z-index: 1;
 }
 
@@ -103,6 +103,122 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .kata {
+    font-size: 50px;
+  }
 }
 
+@media only screen and (max-width: 912px) {
+  .img img {
+    width: 250px;
+  }
+
+  .wrap-text {
+    margin-top: 200px;
+  }
+  .kata {
+    font-size: 70px;
+  }
+
+  .button1 .about {
+    font-size: 20px;
+  }
+  .button1 .reser {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrap-text {
+    margin-top: -0px;
+  }
+
+  .kata {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .wrap-text {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .img img {
+    width: 130px;
+  }
+
+  .wrap-text {
+    margin-top: -50px;
+  }
+
+  .kata {
+    font-size: 40px;
+  }
+
+  .kata .travel {
+    margin-left: 20px;
+  }
+
+  .button1 .about {
+    font-size: 15px;
+  }
+
+  .button1 .reser {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .img img {
+    width: 100px;
+  }
+  .wrap-text {
+    margin-top: 80px;
+  }
+
+  .img {
+    margin-top: 20px;
+  }
+
+  .kata {
+    font-size: 30px;
+  }
+  .button1 .about {
+    font-size: 9px;
+  }
+  .button1 .reser {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .wrap-text {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .wrap-text {
+  }
+
+  .kata {
+    font-size: 30px;
+  }
+
+  .button1 .about {
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .button1 .reser {
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
