@@ -199,16 +199,13 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 370px) {
   .wrap-text {
-    margin-top: -50px;
+    margin-top: 80px;
   }
 }
 
 @media only screen and (max-width: 280px) {
-  .wrap-text {
-  }
-
   .kata {
     font-size: 30px;
   }
