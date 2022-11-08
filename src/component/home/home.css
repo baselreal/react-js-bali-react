@@ -193,6 +193,12 @@
   }
 }
 
+@media only screen and (max-width: 393px) {
+  .img {
+    margin-top: -60px;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .wrap-text {
     margin-top: -50px;

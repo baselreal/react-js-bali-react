@@ -290,7 +290,15 @@
     margin-left: 110px;
   }
 }
+@media only screen and (max-width: 393px) {
+  .back2 img {
+    margin-bottom: 20px;
+  }
 
+  .container {
+    margin-right: 180px;
+  }
+}
 @media only screen and (max-width: 375px) {
   .back2 img {
     height: 20px;
