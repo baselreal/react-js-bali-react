@@ -122,9 +122,6 @@
 }
 
 @media only screen and (max-width: 420px) {
-  .wrapAll {
-  }
-
   .contentTitle {
     font-size: 35px;
     /* margin-top: -170px; */
