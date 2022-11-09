@@ -240,7 +240,35 @@
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 449px) {
+  .reser-title {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+
+  .container {
+    margin-right: 1px;
+    margin-top: -50px;
+  }
+
+  .container input {
+    width: 200px;
+    height: 20px;
+  }
+  .container textarea {
+    width: 200px;
+    height: 70px;
+  }
+  .container .submit {
+    width: 200px;
+    height: 20px;
+  }
+  .container .submit .submit-p {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
   .back2 img {
     height: 30px;
     margin-left: 30px;
@@ -290,16 +318,16 @@
     margin-left: 110px;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 420px) {
   .back2 img {
     margin-bottom: 20px;
   }
 
   .container {
-    margin-right: 180px;
+    margin-right: 220px;
   }
 }
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 377px) {
   .back2 img {
     height: 20px;
     margin-left: 20px;
@@ -328,6 +356,35 @@
     height: 10px;
   }
 
+  .container textarea {
+    width: 200px;
+  }
+
+  .container .submit {
+    width: 200px;
+    height: 20px;
+  }
+  .container .submit .submit-p {
+    width: 200px;
+    margin-left: 75px;
+  }
+} */
+
+@media only screen and (max-width: 377px) {
+  .reser-title {
+    margin-left: 20px;
+  }
+  .container {
+    margin-left: 400px;
+  }
+  .container input {
+    width: 200px;
+    height: 10px;
+    margin-right: 190px;
+  }
+  .container .select {
+    padding-right: 15px;
+  }
   .container textarea {
     width: 200px;
   }
