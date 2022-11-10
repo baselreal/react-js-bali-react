@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="bg">
-      <div className="bg-color"></div>\
+      <div className="bg-color"></div>
       <div className="wrap-text">
         <div className="img">
           <img src={Bali} alt="" />

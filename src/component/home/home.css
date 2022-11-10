@@ -8,16 +8,17 @@
   background-image: url(./background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
-
 .bg-color {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: absolute;
   background-color: rgba(42, 38, 61, 0.82);
 }
 
 .wrap-text {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,8 +115,9 @@
   }
 
   .wrap-text {
+    height: 100%;
     margin-top: -20px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   .kata {
     font-size: 50px;
@@ -131,6 +133,7 @@
 
 @media only screen and (max-width: 800px) {
   .wrap-text {
+    height: 100%;
     margin-top: -0px;
   }
 
@@ -141,7 +144,8 @@
 
 @media only screen and (max-width: 908px) {
   .wrap-text {
-    margin-top: 10px;
+    height: 100%;
+    padding-top: 10px;
   }
 
   .kata {
@@ -155,7 +159,8 @@
   }
 
   .wrap-text {
-    margin-top: -50px;
+    height: 100%;
+    padding-bottom: 50px;
   }
 
   .kata {
@@ -180,9 +185,9 @@
     width: 100px;
   }
   .wrap-text {
-    margin-top: 80px;
+    height: 100%;
+    padding-top: 80px;
   }
-
   .img {
     margin-top: 20px;
   }
@@ -206,9 +211,10 @@
 
 @media only screen and (max-width: 320px) {
   .wrap-text {
-    margin-top: 80px;
+    height: 100%;
+    padding-top: 80px;
   }
-  .button1 .about {
+  /* .button1 .about {
     padding-top: 5px;
     padding-bottom: 6px;
     padding-left: 30px;
@@ -220,7 +226,7 @@
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 280px) {
@@ -228,7 +234,7 @@
     font-size: 30px;
   }
 
-  .button1 .about {
+  /* .button1 .about {
     padding-top: 5px;
     padding-bottom: 6px;
     padding-left: 30px;
@@ -240,6 +246,6 @@
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
-  }
+  } */
 }
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
